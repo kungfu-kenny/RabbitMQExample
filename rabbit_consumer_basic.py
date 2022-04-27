@@ -9,7 +9,7 @@ def develop_consumer_basic():
     channel = connection.channel()
     channel.queue_declare(queue=queue)
     channel.basic_consume(
-        queue='hello', 
+        queue=queue, 
         on_message_callback=develop_callback, 
         auto_ack=True
     )

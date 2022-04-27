@@ -23,4 +23,4 @@ with pika.BlockingConnection(
         )
         print("Sent Index:", i)
         print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
-        sleep(0.01)
+        sleep(0.02)
