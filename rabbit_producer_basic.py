@@ -18,7 +18,7 @@ with pika.BlockingConnection(
     for i in range(index_begin, index_end):
         channel.basic_publish(
             exchange='', 
-            routing_key='hello', 
+            routing_key=queue, 
             body=develop_random_data(i)
         )
         print("Sent Index:", i)
