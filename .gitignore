@@ -1,4 +1,6 @@
 venv
 plot
 storage
+rabbit_consumer_new.py
+rabbit_producer_new.py
 __pycache__
