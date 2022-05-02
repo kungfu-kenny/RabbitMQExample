@@ -9,7 +9,8 @@ folder_use = os.path.join(folder_main, folder_storage)
 folder_use_plot = os.path.join(folder_main, folder_plot)
 
 host = 'localhost'
-queue = 'test_queue_3'
+queue = 'test_queue_5'
+exchange = 'test_exchange'
 
 string_range = 30
 index_begin, index_end = 1, 2000001
